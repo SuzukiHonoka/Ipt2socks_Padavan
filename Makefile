@@ -1,5 +1,5 @@
 BIN_NAME=ipt2socks
-BIN_URL=https://raw.githubusercontent.com/SuzukiHonoka/Ipt2socks_Padavan/$(BIN_NAME)
+BIN_URL=https://raw.githubusercontent.com/SuzukiHonoka/Ipt2socks_Padavan/master/$(BIN_NAME)
 BIN_PATH=/usr/bin
 
 THISDIR = $(shell pwd)
