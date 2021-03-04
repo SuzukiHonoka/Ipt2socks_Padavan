@@ -68,7 +68,7 @@ if [ ! -f $LOCK ]
 then
 	ipset destroy $SET_NAME
 	ipset -N $SET_NAME hash:net
-	for i in $(cat ${REDSOCKS_DIR}/cn.zone); do ipset -A china $i; done
+	for i in $(cat ${IPT2SOCKS_DIR}/cn.zone); do ipset -A china $i; done
 	touch $LOCK
 	logger -t $BINARY_NAME "SET LOCKED"
 fi
